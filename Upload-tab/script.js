@@ -1,6 +1,7 @@
 const openModalBtn = document.getElementById("show-modal");
 const modal = document.querySelector(".modal");
 const closeModalbtn = document.querySelector(".close-modal");
+const fileSelector = document.querySelector(".add-file");
 
 
 const openModal = function () {
@@ -18,3 +19,5 @@ const openModal = function () {
 
   closeModalbtn.addEventListener('click', closeModal);
   
+
+  // Uploading files

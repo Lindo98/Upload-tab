@@ -194,21 +194,26 @@ label {
     color: #22C55E;
 }
 
-.list-section li .col .svg.circle-check,
-.list-section li .col .svg.xmark {
+#icons {
+    padding: 16px;
+}
+
+.list-section li .col svg.circle-check,
+.list-section li .col svg.xmark {
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
     fill: #10B4CD;
+    padding-top: 8px;
 }
 
-.list-section li .col .svg.xmark {
+.list-section li .col svg.xmark {
     fill: #ff0000;
 }
 
-.list-section li .col .svg.circle-check {
+.list-section li .col svg.circle-check {
     fill: #22C55E;
 }
 
